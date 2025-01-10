@@ -123,7 +123,7 @@ async function submitForm() {
     // Send the FormData object to the server
     
     try {
-        const response = await fetch('https://courageous-dasik-6bc435.netlify.app/.netlify/functions/api/register', {
+        const response = await fetch('https://api.cors.lol/?url=https://courageous-dasik-6bc435.netlify.app/.netlify/functions/api/register', {
           method: 'POST',
           body: formData, // Use the FormData object directly
         });
